@@ -12,8 +12,12 @@
                     a um novo nível, fechar contratos de maior valor e <br>
                     conquistar mais tempo para sua vida pessoal.
                 </p>
-                <p class="font-poppins text-sm font-semibold text-pastelOrange italic">° Nesta mentoria exclusiva você aprenderá:</p>
-
+                <div class="flex gap-4 items-center ">
+                    <span class="block w-1.5 h-1.5 bg-pastelOrange rotate-45 mb-0.5"></span>
+                    <p class="font-poppins text-sm font-semibold text-pastelOrange italic">
+                        Nesta mentoria exclusiva você aprenderá:
+                    </p>
+                </div>
                 <div class="space-y-4 p-7 bg-[url('@/assets/images/gradient_rectangle.png')] bg-cover">
                     <div class="w-full flex gap-4 justify-start items-center">
                         <div class="w-4 h-4 border-2 border-softBege rounded">
