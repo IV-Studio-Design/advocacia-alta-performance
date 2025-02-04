@@ -67,7 +67,17 @@
 
         <div class="w-[45%] relative self-end">
             <img class="absolute w-[45rem] -left-52 bottom-32 mix-blend-screen" src="@/assets/images/light_effect.png" />
-            <img class="w-[26rem] absolute -left-12 bottom-0" src="@/assets/images/woman_expert.png" />
+            <img class="w-[26rem] absolute -left-12 bottom-0 z-50" src="@/assets/images/woman_expert.png" />
+
+            <div class="absolute left-5 bottom-[30rem] scale-90 z-40">
+                <NotificationSale class="notificationSale opacity-0" style="animation-delay: 1s" />
+            </div>
+            <div class="absolute left-56 bottom-72 scale-75 z-50">
+                <NotificationSale class="notificationSale opacity-0" style="animation-delay: 3s" />
+            </div>
+            <div class="absolute left-44 bottom-16 z-50">
+                <NotificationSale class="notificationSale opacity-0"  style="animation-delay: 5s" />
+            </div>
         </div>
     </section>
 </template>
@@ -75,5 +85,25 @@
 <style scoped>
     .check-path {
         clip-path: polygon(28% 38%, 41% 53%, 75% 24%, 86% 38%, 40% 78%, 15% 50%);
+    }
+
+    .notificationSale {
+        animation: swipingUp 7s infinite;
+    }
+
+    @keyframes swipingUp {
+        0% {
+            opacity: 0;
+        }
+        50% {
+            opacity: 0.8;
+            transform:translateY(-50px);
+            filter: drop-shadow(0px 10px 10px rgba(0,0,0,.3));
+        }
+        100% {
+            opacity: 0;
+            transform:translateY(-60px);
+        }
+
     }
 </style>
