@@ -1,5 +1,5 @@
 <template>
-    <section class="w-full flex justify-end items-center bg-[url('@/assets/images/office_bg.png')] bg-cover bg-center">
+    <section class="w-full flex justify-end items-center bg-[url('@/assets/images/office_bg.png')] bg-cover bg-center overflow-y-hidden">
         <div class="py-16">
             <div class="w-full max-w-[30rem] translate-y-3 flex gap-5 flex-col justify-start items-start border border-lightPeach/30 backdrop-blur-sm bg-black/50 p-9 rounded-3xl">
                 <h1 class="font-poppins text-3xl font-semibold leading-8 bg-gradient-to-r from-lightPeach from-0% via-pastelOrange to-pastelOrange bg-clip-text text-transparent">
@@ -67,7 +67,7 @@
 
         <div class="w-[45%] relative self-end">
             <img class="shine-effect absolute w-[45rem] -left-52 bottom-32 mix-blend-screen" src="@/assets/images/light_effect.png" />
-            <img class="w-[26rem] absolute -left-12 bottom-0 z-50" src="@/assets/images/woman_expert.png" />
+            <img class="floating-effect w-[26rem] absolute -left-12 bottom-0 z-50" src="@/assets/images/woman_expert.png" />
 
             <div class="absolute left-5 bottom-[30rem] scale-90 z-40">
                 <NotificationSale class="notificationSale opacity-0" style="animation-delay: 1s" />
@@ -85,6 +85,22 @@
 <style scoped>
     .check-path {
         clip-path: polygon(28% 38%, 41% 53%, 75% 24%, 86% 38%, 40% 78%, 15% 50%);
+    }
+
+    .floating-effect {
+        animation: floating 8s ease infinite
+    }
+
+    @keyframes floating {
+        0% {
+           transform: translateY(0);
+        }
+        50% {
+            transform: translateY(15px)
+        }
+        100% {
+            transform: translateY(0)
+        }
     }
 
     .shine-effect {
