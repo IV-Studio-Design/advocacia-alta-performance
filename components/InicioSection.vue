@@ -66,7 +66,7 @@
         </div>
 
         <div class="w-[45%] relative self-end">
-            <img class="absolute w-[45rem] -left-52 bottom-32 mix-blend-screen" src="@/assets/images/light_effect.png" />
+            <img class="shine-effect absolute w-[45rem] -left-52 bottom-32 mix-blend-screen" src="@/assets/images/light_effect.png" />
             <img class="w-[26rem] absolute -left-12 bottom-0 z-50" src="@/assets/images/woman_expert.png" />
 
             <div class="absolute left-5 bottom-[30rem] scale-90 z-40">
@@ -85,6 +85,23 @@
 <style scoped>
     .check-path {
         clip-path: polygon(28% 38%, 41% 53%, 75% 24%, 86% 38%, 40% 78%, 15% 50%);
+    }
+
+    .shine-effect {
+        animation: shine 5s infinite;
+        transform: scale(.75);
+    }
+
+    @keyframes shine {
+        0% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(.85)
+        }
+        100% {
+            transform: scale(1);
+        }
     }
 
     .notificationSale {
