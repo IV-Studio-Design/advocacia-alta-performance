@@ -1,5 +1,5 @@
 <template>
-    <section class="w-full flex justify-center items-center pt-16 pb-24 bg-[url('@/assets/images/woman_bg_2.png')] bg-black bg-cover bg-center">
+    <section class="w-full flex justify-center items-center pt-16 pb-24 bg-[url('@/assets/images/woman_bg_2.png')] bg-black bg-cover bg-top">
         <div class="-translate-x-36 translate-y-5 w-full max-w-[27.5rem] flex gap-5 flex-col justify-start items-start border border-lightPeach/30 backdrop-blur-sm bg-black/50 pl-10 pt-12 pb-16 rounded-3xl">
             <h1 class="font-poppins text-3xl font-semibold bg-gradient-to-r from-lightPeach from-0% via-pastelOrange to-pastelOrange bg-clip-text text-transparent">
                 Sobre a mentora
