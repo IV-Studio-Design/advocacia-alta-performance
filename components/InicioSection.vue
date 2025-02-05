@@ -177,7 +177,7 @@
     }
 
     .notificationSale {
-        animation: swipingUp 7s infinite;
+        animation: swipingUp 5s infinite;
     }
 
     @keyframes swipingUp {
