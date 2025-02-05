@@ -56,9 +56,15 @@
 
                 <div class="flex items-center mx-auto">
                     <div class="flex">
-                        <div class="w-6 h-6 bg-lightPeach rounded-full border border-white"></div>
-                        <div class="w-6 h-6 -translate-x-2 bg-lightPeach rounded-full border border-white"></div>
-                        <div class="w-6 h-6 -translate-x-4 bg-pastelOrange rounded-full border border-white"></div>
+                        <div class="enter-effect w-6 h-6 rounded-full border-2 border-black overflow-hidden">
+                            <img class="w-full h-full object-cover" src="@/assets/images/homem_adv_1.png" />
+                        </div>
+                        <div class="enter-effect2 w-6 h-6 -translate-x-2 rounded-full border-2 border-black overflow-hidden">
+                            <img class="w-full h-full object-cover" src="@/assets/images/homem_adv_2.png" />
+                        </div>
+                        <div class="enter-effect3 w-6 h-6 -translate-x-4 rounded-full border-2 border-black overflow-hidden">
+                            <img class="w-full h-full object-cover" src="@/assets/images/mulher_adv_1.png" />
+                        </div>
                     </div>
                     <p class="font-poppins text-xs text-snowWhite">+138 Mentorados faturando acima de 100K por mês</p>
                 </div>
@@ -85,6 +91,56 @@
 <style scoped>
     .check-path {
         clip-path: polygon(28% 38%, 41% 53%, 75% 24%, 86% 38%, 40% 78%, 15% 50%);
+    }
+
+    .enter-effect {
+        animation: enter 2s ease; 
+    }
+
+    .enter-effect2 {
+        animation: enter2 2s ease; 
+    }
+
+    .enter-effect3 {
+        animation: enter3 2s ease; 
+    }
+
+    @keyframes enter {
+        0% {
+            opacity: 0;
+            transform: translateX(-20px)
+        }
+        75% {
+            opacity: 0;
+            transform: translateX(-20px)
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @keyframes enter2 {
+        0% {
+            opacity: 0;
+            transform: translateX(-20px)
+        }
+        50% {
+            opacity: 0;
+            transform: translateX(-20px)
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @keyframes enter3 {
+        from {
+            opacity: 0;
+            transform: translateX(-30px)
+        }
+        to {
+            opacity: 1;
+        }
     }
 
     .floating-effect {
