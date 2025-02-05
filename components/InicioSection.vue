@@ -1,7 +1,7 @@
 <template>
     <section class="w-full flex justify-end items-center bg-[url('@/assets/images/office_bg.png')] bg-cover bg-center overflow-y-hidden">
         <div class="py-16">
-            <div class="w-full max-w-[30rem] translate-y-3 flex gap-5 flex-col justify-start items-start border border-lightPeach/30 backdrop-blur-sm bg-black/50 p-9 rounded-3xl">
+            <div class="w-full max-w-[30rem] translate-y-3 flex gap-5 flex-col justify-start items-start border border-lightPeach/30 backdrop-blur-sm bg-black/50 p-[38px] rounded-[2rem]">
                 <h1 class="font-poppins text-3xl font-semibold leading-8 bg-gradient-to-r from-lightPeach from-0% via-pastelOrange to-pastelOrange bg-clip-text text-transparent">
                     É advogado e sente que <br>
                     está preso no mesmo <br>
