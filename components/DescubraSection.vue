@@ -1,7 +1,10 @@
 <template>
     <section class="w-full bg-gradient-to-r from-lightPeach to-pastelOrange relative overflow-x-clip">
-        <img class="w-[50rem] absolute -top-[35rem] -left-52 mix-blend-screen opacity-50 z-40" src="@/assets/images/light_effect.png" />
-        <img class="w-[50rem] absolute -bottom-[30rem] -right-56 mix-blend-screen opacity-50 z-40" src="@/assets/images/light_effect.png" />
+        <div class="w-full absolute">
+            <div class="max-w-4xl relative mx-auto">
+                <img class="w-[50rem] absolute -top-[35rem] -left-[26rem] mix-blend-screen opacity-50 z-40" src="@/assets/images/light_effect.png" />
+            </div>
+        </div>
 
         <div class="w-full h-full flex gap-3 justify-center items-center bg-[url('@/assets/images/building_bg.png')] bg-cover bg-center">
             <div class="w-96 h-full relative self-end">
@@ -72,6 +75,12 @@
                     Agendar minha sessão de diagnóstico
                     <IconsArrowForward width="22" height="22" stroke="#ffd4b5" />
                 </a>
+            </div>
+        </div>
+
+        <div class="w-full absolute bottom-0">
+            <div class="max-w-4xl relative mx-auto">
+                <img class="w-[50rem] absolute -bottom-[30rem] -right-[26rem] mix-blend-screen opacity-90 z-40" src="@/assets/images/light_effect.png" />
             </div>
         </div>
     </section>
