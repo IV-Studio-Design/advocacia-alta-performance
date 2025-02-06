@@ -19,7 +19,7 @@
                     </p>
                 </div>
                 <div class="space-y-4 p-7 bg-[url('@/assets/images/gradient_rectangle.png')] bg-cover">
-                    <div class="w-full flex gap-4 justify-start items-center">
+                    <div class="w-full flex gap-3 justify-start items-center">
                         <div class="w-4 h-4 border-2 border-softBege rounded">
                             <div class="w-full h-full bg-softBege check-path"></div>
                         </div>
@@ -28,16 +28,16 @@
                             que limitam o seu crescimento financeiro
                         </p>
                     </div>
-                    <div class="w-full flex gap-4 justify-start items-center">
-                        <div class="w-4 h-4 border-2 border-softBege rounded">
+                    <div class="w-full flex gap-3 justify-start items-center">
+                        <div class="min-w-4 min-h-4 w-4 h-4 border-2 border-softBege rounded">
                             <div class="w-full h-full bg-softBege check-path"></div>
                         </div>
                         <p class="font-poppins text-sm leading-4 font-semibold text-pastelOrange italic">
-                            Estratégias para construir um time eficiente <br>
+                            Estratégias para construir um time eficiente
                             e reduzir sua sobrecarga operacional.
                         </p>
                     </div>
-                    <div class="w-full flex gap-4 justify-start items-center">
+                    <div class="w-full flex gap-3 justify-start items-center">
                         <div class="w-4 h-4 border-2 border-softBege rounded">
                             <div class="w-full h-full bg-softBege check-path"></div>
                         </div>
