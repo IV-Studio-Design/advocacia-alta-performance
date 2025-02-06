@@ -1,11 +1,5 @@
 <template>
     <section class="w-full bg-gradient-to-r from-lightPeach to-pastelOrange relative overflow-x-clip">
-        <div class="w-full absolute">
-            <div class="max-w-4xl relative mx-auto">
-                <img class="w-[50rem] absolute -top-[35rem] -left-[26rem] mix-blend-screen opacity-50 z-40" src="@/assets/images/light_effect.png" />
-            </div>
-        </div>
-
         <div class="w-full h-full flex gap-3 justify-center items-center bg-[url('@/assets/images/building_bg.png')] bg-cover bg-center">
             <div class="w-96 h-full relative self-end">
                 <img class="w-[40rem] absolute bottom-44 -right-10 mix-blend-screen z-40" src="@/assets/images/light_effect.png" />
