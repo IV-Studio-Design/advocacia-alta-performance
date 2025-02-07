@@ -55,7 +55,7 @@
                     </div>  
                 </div>
                 
-                <a href="#" class="w-full bg-lightPeach text-deepBlack advocacia-button">
+                <a href="#" class="w-full bg-lightPeach text-deepBlack advocacia-button after:bg-gradient-to-r after:from-transparent after:via-white">
                     Agendar minha sessão de diagnóstico
                     <IconsArrowForward width="22" height="22" stroke="#000" />
                 </a>
