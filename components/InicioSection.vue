@@ -1,10 +1,12 @@
 <template>
-    <section class="w-full relative flex justify-end items-center bg-[url('@/assets/images/office_bg.png')] bg-cover bg-center">
+    <section class="w-full relative flex flex-row-reverse justify-center items-center bg-[url('@/assets/images/office_bg.png')] bg-cover bg-center">
         <div class="w-full absolute bottom-0">
             <div class="max-w-4xl relative mx-auto">
                 <img class="w-[50rem] absolute -top-[35rem] -left-[26rem] mix-blend-screen opacity-50 z-40" src="@/assets/images/light_effect.png" />
             </div>
         </div>
+
+        <FloatingWoman />
 
         <div class="py-16 z-50">
             <div class="w-full max-w-[30rem] translate-y-3 flex gap-5 flex-col justify-start items-start border border-lightPeach/30 backdrop-blur-sm bg-gradient-to-bl from-black/30 to-black/30 p-[38px] rounded-[2rem] z-[9999999]">
@@ -76,8 +78,6 @@
                 </div>
             </div>
         </div>
-
-        <FloatingWoman />
     </section>
 </template>
 
