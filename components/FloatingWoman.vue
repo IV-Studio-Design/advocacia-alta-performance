@@ -1,7 +1,7 @@
 <template>
     <div class="w-[45%] h-[45rem] relative self-end -translate-x-12">
         <img class="shine-effect absolute w-[45rem] -left-44 bottom-16 mix-blend-screen" src="@/assets/images/light_effect.png" />
-        <img class="floating-effect w-[26rem] absolute -left-0 bottom-0" src="@/assets/images/woman_expert.png" />
+        <img class="floating-effect w-[26rem] absolute -left-0 bottom-0 z-50" src="@/assets/images/woman_expert.png" />
 
         <div class="absolute left-5 bottom-[30rem] scale-90 z-40">
             <NotificationSale class="notificationSale opacity-0" style="animation-delay: 1s" />
