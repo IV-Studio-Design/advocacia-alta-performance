@@ -1,20 +1,20 @@
 <template>
-    <section class="w-full bg-gradient-to-r from-lightPeach to-pastelOrange relative overflow-x-clip">
-        <div class="w-full h-full flex gap-3 justify-center items-center bg-[url('@/assets/images/building_bg.png')] bg-cover bg-center">
-            <div class="w-96 h-full relative self-end">
+    <section class="w-full bg-gradient-to-r from-lightPeach to-pastelOrange relative overflow-x-clip px-2">
+        <div class="w-full h-full flex flex-col lg:flex-row lg:gap-3 justify-center items-center bg-[url('@/assets/images/building_bg.png')] bg-cover bg-center">
+            <div class="w-96 h-full relative lg:self-end pt-5 lg:pt-0">
                 <img class="w-[40rem] absolute bottom-44 -right-10 mix-blend-screen z-40" src="@/assets/images/light_effect.png" />
-                <img class="w-[25rem] absolute bottom-0 right-0 z-50" src="@/assets/images/statue.png">
+                <img class="w-80 lg:w-[25rem] z-50" src="@/assets/images/statue.png">
             </div>
-            <div class="space-y-10 py-20 z-50">
-                <p class="font-poppins font-light text-lg leading-5">
-                    Descubra como transformar a internet <br>
-                    em sua maior aliada para <i class="font-semibold">alavancar exponencialmente <br>
-                    o crescimento do seu escritório.</i> utilizando uma estrátegia <br>
-                    testada e aprovada por mim e meus mentorados, com <br>
+            <div class="space-y-10 pt-5 pb-20 lg:py-20 z-50">
+                <p class="sm:w-[33rem] font-poppins font-light text-base sm:text-lg leading-4 sm:leading-5 text-center lg:text-left">
+                    Descubra como transformar a internet
+                    em sua maior aliada para <i class="font-semibold">alavancar exponencialmente
+                    o crescimento do seu escritório.</i> utilizando uma estrátegia
+                    testada e aprovada por mim e meus mentorados, com
                     resultados comprovados.
                 </p>
-                <div class="flex justify-start items-start">
-                    <div class="grid gap-x-4 gap-y-5 grid-cols-2">
+                <div class="flex justify-center lg:justify-start items-start">
+                    <div class="grid gap-x-4 gap-y-5 grid-cols-1 sm:grid-cols-2">
                         <div class="w-62 flex gap-2 justify-center items-center border-2 border-deepBlack rounded-xl py-3">
                             <img class="w-7" src="@/assets/images/icons/money-bag.svg" />
                             <p class="font-poppins font-medium text-[10px] leading-3">
@@ -59,13 +59,13 @@
                         </div>
                     </div>
                 </div>
-                <p class="font-poppins font-light text-lg leading-5">
-                    Dê o primeiro passo rumo á transformação do seu escritório. <br>
-                    <i class="font-semibold">Agende agora uma sessão de diagnóstico exclusivo</i> com <br>
-                    nosso time e descubra os passos essenciais para ingressar <br>
+                <p class="sm:w-[35rem] font-poppins font-light text-base sm:text-lg leading-4 sm:leading-5 text-center lg:text-left">
+                    Dê o primeiro passo rumo á transformação do seu escritório.
+                    <i class="font-semibold">Agende agora uma sessão de diagnóstico exclusivo</i> com 
+                    nosso time e descubra os passos essenciais para ingressar
                     definitivamente na <i class="font-semibold">Advocacia de Alta de Performance.</i>
                 </p>
-                <a href="#" class="w-96 bg-neutral-700 text-lightPeach advocacia-button after:bg-gradient-to-r after:from-transparent after:via-neutral-400">
+                <a href="#" class="mx-auto lg:mx-0 w-96 bg-neutral-700 text-lightPeach advocacia-button after:bg-gradient-to-r after:from-transparent after:via-neutral-400">
                     Agendar minha sessão de diagnóstico
                     <IconsArrowForward width="22" height="22" stroke="#ffd4b5" />
                 </a>

@@ -9,7 +9,7 @@
         <div class="absolute left-10 sm:left-36 lg:left-52 bottom-72 scale-50 sm:scale-75 z-50">
             <NotificationSale class="notificationSale opacity-0" style="animation-delay: 3s" />
         </div>
-        <div class="absolute left-16 sm:left-32 lg:left-44 bottom-16 z-50 scale-75 sm:scale-90 lg:scale-100">
+        <div class="absolute -left-5 sm:left-32 lg:left-44 bottom-16 z-50 scale-75 sm:scale-90 lg:scale-100">
             <NotificationSale class="notificationSale opacity-0"  style="animation-delay: 5s" />
         </div>
     </div>
