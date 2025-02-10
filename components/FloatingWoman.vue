@@ -1,15 +1,15 @@
 <template>
-    <div class="w-96 h-[45rem] relative self-end -translate-x-12 z-[60] overflow-y-clip">
+    <div class="h-[33rem] sm:h-[40rem] lg:h-[45rem] flex relative lg:self-end lg:-translate-x-12 lg:z-[60] lg:overflow-y-clip">
         <img class="shine-effect absolute w-[45rem] -left-12 bottom-52 mix-blend-screen" src="@/assets/images/light_effect.png" />
-        <img class="floating-effect w-[26rem] absolute -left-0 bottom-0 z-50" src="@/assets/images/woman_expert.png" />
+        <img class="floating-effect w-72 sm:w-80 lg:w-[25rem] self-end z-50" src="@/assets/images/woman_expert.png" />
 
-        <div class="absolute left-5 bottom-[30rem] scale-90 z-40">
+        <div class="absolute left-5 bottom-96 lg:bottom-[30rem] scale-75 sm:scale-90 z-40">
             <NotificationSale class="notificationSale opacity-0" style="animation-delay: 1s" />
         </div>
-        <div class="absolute left-56 bottom-72 scale-75 z-50">
+        <div class="absolute left-10 sm:left-36 lg:left-52 bottom-72 scale-50 sm:scale-75 z-50">
             <NotificationSale class="notificationSale opacity-0" style="animation-delay: 3s" />
         </div>
-        <div class="absolute left-44 bottom-16 z-50">
+        <div class="absolute left-16 sm:left-32 lg:left-44 bottom-16 z-50 scale-75 sm:scale-90 lg:scale-100">
             <NotificationSale class="notificationSale opacity-0"  style="animation-delay: 5s" />
         </div>
     </div>
