@@ -1,7 +1,6 @@
 <template>
-    <section class="relative w-full bg-black">
-        <img class="object-cover mx-auto" src="/assets/images/woman_bg_2.png" />
-        <div class="absolute top-0 left-0 w-full flex justify-center items-center pt-16 pb-24">
+    <section class="w-full bg-black bg-[url('@/assets/images/woman_bg_2.png')] bg-no-repeat bg-center bg-[auto_45rem]">
+        <div class=" w-full flex justify-center items-center pt-16 pb-24">
             <div class="-translate-x-36 translate-y-5 w-full max-w-[27.5rem] flex gap-5 flex-col justify-start items-start border border-lightPeach/30 backdrop-blur-sm bg-black/50 pl-10 pt-12 pb-16 rounded-3xl">
                 <h1 class="font-poppins text-3xl font-semibold bg-gradient-to-r from-lightPeach from-0% via-pastelOrange to-pastelOrange bg-clip-text text-transparent">
                     Sobre a mentora
