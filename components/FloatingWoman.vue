@@ -1,5 +1,5 @@
 <template>
-    <div class="h-[33rem] sm:h-[40rem] lg:h-[45rem] flex relative lg:self-end lg:-translate-x-12 lg:z-[60] lg:overflow-y-clip">
+    <div class="h-[33rem] sm:h-[40rem] lg:h-[45rem] flex relative lg:self-end translate-y-3 lg:translate-y-0 lg:-translate-x-12 lg:z-[60] lg:overflow-y-clip">
         <img class="shine-effect absolute w-[45rem] -left-12 bottom-52 mix-blend-screen" src="@/assets/images/light_effect.png" />
         <img class="floating-effect w-72 sm:w-80 lg:w-[25rem] self-end z-50" src="@/assets/images/woman_expert.png" />
 

@@ -27,12 +27,12 @@
                     </p>
                 </div>
                 <div class="space-y-4 p-5 sm:p-7 bg-[url('@/assets/images/gradient_rectangle.png')] bg-cover">
-                    <div class="w-full flex gap-3 justify-start items-center">
+                    <div class="w-full flex gap-3 justify-start items-center ">
                         <div class="w-3 sm:w-4 h-3 sm:h-4 border sm:border-2 border-softBege rounded">
                             <div class="w-full h-full bg-softBege check-path"></div>
                         </div>
-                        <p class="font-poppins text-left text-xs sm:text-sm leading-3 sm:leading-4 font-semibold text-pastelOrange italic">
-                            Como indentificar e superar os obstáculos <br>
+                        <p class="w-full max-w-[20rem] font-poppins text-center sm:text-left text-xs sm:text-sm leading-3 sm:leading-4 font-semibold text-pastelOrange italic">
+                            Como indentificar e superar os obstáculos
                             que limitam o seu crescimento financeiro
                         </p>
                     </div>
@@ -40,7 +40,7 @@
                         <div class="min-w-3 sm:min-w-4 min-h-3 sm:min-h-4 w-3 sm:w-4 h-3 sm:h-4 border sm:border-2 border-softBege rounded">
                             <div class="w-full h-full bg-softBege check-path"></div>
                         </div>
-                        <p class="font-poppins text-left text-xs sm:text-sm leading-3 sm:leading-4 font-semibold text-pastelOrange italic">
+                        <p class="w-full max-w-[20rem] font-poppins text-center sm:text-left text-xs sm:text-sm leading-3 sm:leading-4 font-semibold text-pastelOrange italic">
                             Estratégias para construir um time eficiente
                             e reduzir sua sobrecarga operacional.
                         </p>
@@ -49,9 +49,9 @@
                         <div class="w-3 sm:w-4 h-3 sm:h-4 border sm:border-2 border-softBege rounded">
                             <div class="w-full h-full bg-softBege check-path"></div>
                         </div>
-                        <p class="font-poppins text-left text-xs sm:text-sm leading-3 sm:leading-4 font-semibold text-pastelOrange italic">
-                            O segredo para transformar seu escritório <br>
-                            em uma máquina de lucros na <span class="text-lightPeach">Advocacia <br>
+                        <p class="w-full max-w-[20rem] font-poppins text-center sm:text-left text-xs sm:text-sm leading-3 sm:leading-4 font-semibold text-pastelOrange italic">
+                            O segredo para transformar seu escritório
+                            em uma máquina de lucros na <span class="text-lightPeach">Advocacia
                             de Alta Performance.</span>
                         </p>
                     </div>  
