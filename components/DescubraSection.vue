@@ -65,7 +65,7 @@
                     nosso time e descubra os passos essenciais para ingressar
                     definitivamente na <i class="font-semibold">Advocacia de Alta de Performance.</i>
                 </p>
-                <a href="#" class="mx-auto lg:mx-0 w-96 bg-neutral-700 text-lightPeach advocacia-button after:bg-gradient-to-r after:from-transparent after:via-neutral-400">
+                <a href="#" class="mx-auto lg:mx-0 sm:w-96 bg-neutral-700 text-lightPeach advocacia-button after:bg-gradient-to-r after:from-transparent after:via-neutral-400">
                     Agendar minha sessão de diagnóstico
                     <IconsArrowForward width="22" height="22" stroke="#ffd4b5" />
                 </a>

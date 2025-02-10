@@ -8,25 +8,25 @@
 
         <FloatingWoman />
 
-        <div class="pt-0 pb-16 lg:py-16 z-50">
+        <div class="w-full sm:w-fit pt-0 pb-16 lg:py-16 z-50">
             <div class="w-full max-w-[30rem] text-center sm:text-left translate-y-3 flex gap-5 flex-col justify-start items-center sm:items-start border border-lightPeach/30 backdrop-blur-sm bg-gradient-to-bl from-black/30 to-black/30 p-7 sm:p-[38px] rounded-[2rem] z-[9999999]">
-                <h1 class="w-[27rem] font-poppins text-2xl leading-6 lg:text-3xl font-semibold lg:leading-8 bg-gradient-to-r from-lightPeach from-0% via-pastelOrange to-pastelOrange bg-clip-text text-transparent">
+                <h1 class="w-full max-w-[27rem] font-poppins text-2xl leading-6 lg:text-3xl font-semibold lg:leading-8 bg-gradient-to-r from-lightPeach from-0% via-pastelOrange to-pastelOrange bg-clip-text text-transparent">
                     É advogado e sente que
                     está preso no mesmo
                     patamar de faturamento?
                 </h1>
-                <p class="font-poppins text-sm leading-4 font-medium text-snowWhite italic">
-                    Descubra como elevar seu escritório de advocacia <br>
-                    a um novo nível, fechar contratos de maior valor e <br>
+                <p class="w-full max-w-96 font-poppins text-sm leading-4 font-medium text-snowWhite italic">
+                    Descubra como elevar seu escritório de advocacia
+                    a um novo nível, fechar contratos de maior valor e
                     conquistar mais tempo para sua vida pessoal.
                 </p>
-                <div class="flex gap-4 items-center ">
+                <div class="flex gap-4 items-center">
                     <span class="block w-1.5 h-1.5 bg-pastelOrange rotate-45 mb-0.5"></span>
                     <p class="font-poppins text-sm font-semibold text-pastelOrange italic">
                         Nesta mentoria exclusiva você aprenderá:
                     </p>
                 </div>
-                <div class="space-y-4 p-7 bg-[url('@/assets/images/gradient_rectangle.png')] bg-cover">
+                <div class="space-y-4 p-5 sm:p-7 bg-[url('@/assets/images/gradient_rectangle.png')] bg-cover">
                     <div class="w-full flex gap-3 justify-start items-center">
                         <div class="w-3 sm:w-4 h-3 sm:h-4 border sm:border-2 border-softBege rounded">
                             <div class="w-full h-full bg-softBege check-path"></div>
